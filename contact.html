@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <nav>
+        <div class="nav-links">
+          <a href="./index.html" class="nav-link">Home</a>
+          <a href="./index.html#projects" class="nav-link">Project</a>
+          <a href="./index.html#about" class="nav-link">About</a>
+          <a href="./contact.html" class="nav-link">Contact</a>
+        </div>
+        <div class="quick-links">
+          <a href="" class="quick-link">@</a>
+          <a href="" class="quick-link">#</a>
+          <a href="" class="quick-link">%</a>
+        </div>
+      </nav>
+      <main>
+        <section class="contact-form-section">
+          <h2>Contact Ngoako</h2>
+          <form action="" id="contact-form">
+            <div class="form-field">
+              <label for="form-subject"> Subject </label>
+              <select name="subject" id="form=subject">
+                <option value="general">General</option>
+                <option value="freelance">Freelance</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="form-email"> Email </label>
+              <input type="email" name="form-email" id="form-email" />
+            </div>
+            <div class="form-field">
+              <label for="form-message"> Message </label>
+              <textarea name="message" id="form-message" rows="5"></textarea>
+            </div>
+            <div class="form-field">
+              <input type="submit" value="Send message" id="form-submit" />
+            </div>
+          </form>
+        </section>
+      </main>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
