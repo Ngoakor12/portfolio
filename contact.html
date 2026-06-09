@@ -27,14 +27,35 @@
           <form action="" id="contact-form">
             <div class="form-field">
               <label for="form-subject"> Subject </label>
-              <select name="subject" id="form=subject">
+              <select name="subject" id="form-subject">
                 <option value="general">General</option>
-                <option value="freelance">Freelance</option>
+                <option value="freelance">Freelance opportunity</option>
               </select>
             </div>
             <div class="form-field">
               <label for="form-email"> Email </label>
               <input type="email" name="form-email" id="form-email" />
+            </div>
+            <div class="form-field freelance-field">
+              <label for="form-budget"> Budget </label>
+              <div class="form-budget-options">
+                <div>
+                  <input type="radio" name="form-budget" id="budget-1" />
+                  <label for="budget-1">R5000 - R10000</label>
+                </div>
+                <div>
+                  <input type="radio" name="form-budget" id="budget-2" />
+                  <label for="budget-2">R10000 - R20000</label>
+                </div>
+                <div>
+                  <input type="radio" name="form-budget" id="budget-3" />
+                  <label for="budget-3">R20000 - R30000</label>
+                </div>
+                <div>
+                  <input type="radio" name="form-budget" id="budget-4" />
+                  <label for="budget-4">R30000+</label>
+                </div>
+              </div>
             </div>
             <div class="form-field">
               <label for="form-message"> Message </label>
